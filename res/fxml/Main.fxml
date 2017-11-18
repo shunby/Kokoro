@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<SplitPane dividerPositions="0.653169014084507" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="900" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Canvas height="382.0" width="368.0" />
+         </children>
+      </Pane>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="info" />
+          <Tab text="Untitled Tab 2" />
+        </tabs>
+      </TabPane>
+   </items>
+</SplitPane>
